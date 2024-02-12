@@ -1,0 +1,125 @@
+.body {
+  display: flex;
+
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sidebar {
+  margin-right: 88px;
+  background-color: rgb(30, 41, 57);
+}
+
+.contacts-wrapper {
+  padding: 40px 0 0 51px;
+}
+
+.aside-title {
+  color: white;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.main {
+  padding-top: 87px;
+}
+
+.work-position {
+  margin-bottom: 18px;
+
+  font-weight: 700;
+  line-height: 1.21;
+}
+
+.main-name {
+  margin-bottom: 24px;
+
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.22;
+}
+.description {
+  margin-bottom: 40px;
+
+  width: 400px;
+  color: rgb(89, 89, 89);
+  line-height: 1.71;
+}
+
+.projects-list {
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.number {
+  margin-right: 13px;
+
+  font-weight: 700;
+  line-height: 1.92;
+}
+
+.list-portfolio {
+  margin-bottom: 50px;
+}
+
+.link-portfolio {
+  color: rgb(89, 89, 89);
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.link-portfolio:hover {
+  color: #fb6d3a;
+  text-decoration: underline;
+}
+
+.technology {
+  color: #595959;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.symbol {
+  font-weight: 700;
+}
+
+.work-section,
+.education-section {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.22;
+  margin-bottom: 12px;
+}
+
+.title-job {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.title-job-underline {
+  color: #fb6d3a;
+}
+
+.date-work {
+  color: #a8a8a8;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.list-activities {
+  width: 500px;
+  margin-bottom: 16px;
+  color: rgb(89, 89, 89);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
