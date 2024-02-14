@@ -1,3 +1,7 @@
+ul {
+  list-style: disc;
+}
+
 .body {
   display: flex;
 
@@ -17,10 +21,36 @@
 
 .aside-title {
   color: white;
-
   font-size: 22px;
   font-weight: 700;
   line-height: 1.22;
+  margin-bottom: 8px;
+}
+
+.aside-title-top {
+  margin-top: 44px;
+}
+
+.contacts-list {
+  list-style: none;
+
+  margin-bottom: 47px;
+}
+
+.phone,
+.email {
+  color: rgb(255, 255, 255);
+
+  font-weight: 700;
+}
+
+.link-phone,
+.link-email {
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+
+  line-height: 1.71;
 }
 
 .main {
@@ -45,12 +75,13 @@
   margin-bottom: 40px;
 
   width: 400px;
-  color: rgb(89, 89, 89);
   line-height: 1.71;
+  color: rgb(89, 89, 89);
 }
 
 .projects-list {
   margin-bottom: 8px;
+
   font-size: 22px;
   font-weight: 700;
   line-height: 1.22;
@@ -68,20 +99,26 @@
 }
 
 .link-portfolio {
-  color: rgb(89, 89, 89);
   line-height: 1.71;
   text-decoration: none;
+  color: rgb(89, 89, 89);
 }
 
 .link-portfolio:hover {
-  color: #fb6d3a;
   text-decoration: underline;
+  color: #fb6d3a;
+}
+
+.link-email:hover,
+.link-phone:hover {
+  text-decoration: underline;
+  color: #0ef1e9b1;
 }
 
 .technology {
-  color: #595959;
   font-weight: 400;
   line-height: 1.71;
+  color: #595959;
 }
 
 .symbol {
@@ -111,15 +148,30 @@
   color: #a8a8a8;
   margin-bottom: 8px;
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.25;
 }
 
 .list-activities {
   width: 500px;
+  padding-left: 16px;
   margin-bottom: 16px;
   color: rgb(89, 89, 89);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
+}
+
+.program {
+  color: #fb6d3a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.program-item {
+  color: rgb(255, 255, 255);
+}
+
+.program-item-li {
+  margin-left: 16px;
 }
